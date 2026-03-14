@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Quiz App</title>
+</head>
+
+<body>
+
+<h1>Simple Quiz</h1>
+
+<p>What is 2 + 2 ?</p>
+
+<input type="radio" name="q1">3<br>
+<input type="radio" name="q1">4<br>
+<input type="radio" name="q1">5<br>
+
+<button onclick="check()">Submit</button>
+
+<p id="result"></p>
+
+<script>
+function check(){
+document.getElementById("result").innerHTML="Correct answer is 4";
+}
+</script>
+
+</body>
+</html>
